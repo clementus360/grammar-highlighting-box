@@ -1,0 +1,56 @@
+#textarea {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+#textbox {
+    position: relative;
+    min-width: 90%;
+    overflow: scroll;
+}
+
+.line-number {
+    color: rgb(125, 125, 125);
+    font-weight: bold;
+    display: contents;
+}
+
+#cursor {
+    position: absolute;
+    width: 2px; /* Adjust width of the cursor */
+    height: 1.2em; /* Adjust height of the cursor */
+    background-color: rgb(159, 159, 159);;
+    animation: blinkCursor 1s infinite; /* Adjust cursor color */
+}
+
+@keyframes blinkCursor {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0; } /* Invisible */
+    100% { opacity: 1; } /* Fully visible */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Consolas, monospace;
+}
+
+
+.verb {
+    color: #0077cc; /* Color for verbs (Blue) */
+}
+
+.adjective {
+    color: #c19a6b; /* Color for adjectives (Green) */
+}
+
+.noun {
+    color: #aa0000; /* Color for nouns (Red) */
+}
