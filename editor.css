@@ -54,3 +54,7 @@
 .noun {
     color: #aa0000; /* Color for nouns (Red) */
 }
+
+.noun-verb {
+    color: #007777;
+}

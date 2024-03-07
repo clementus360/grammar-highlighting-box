@@ -3,7 +3,7 @@ const editor = document.getElementById("text")
 const cursor = document.getElementById("cursor")
 const textbox = document.getElementById("textbox")
 
-const url = "http://localhost:3000"
+const url = "https://grammar-highlighting-box.oa.r.appspot.com"
 
 let network = true
 
